@@ -5,7 +5,7 @@ const memberRouter = require("./src/member/routes");
 const app = express();
 app.use(
   cors({
-    origin: "https://arturabdullin.github.io/fetch-vercel/",
+    origin: "https://arturabdullin.github.io",
   })
 );
 app.use("/members", memberRouter);

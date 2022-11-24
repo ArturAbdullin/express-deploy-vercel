@@ -1,0 +1,30 @@
+{
+  "name": "express-vercel",
+  "version": "1.0.0",
+  "description": "trying to deploy an express app to vercel",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturAbdullin/express-deploy-vercel.git"
+  },
+  "keywords": [
+    "express",
+    "vercel",
+    "rest-api"
+  ],
+  "author": "Artur Abdullin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturAbdullin/express-deploy-vercel/issues"
+  },
+  "homepage": "https://github.com/ArturAbdullin/express-deploy-vercel#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
